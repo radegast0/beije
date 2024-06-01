@@ -2,7 +2,11 @@ import Footer from "./_components/Footer";
 import Navbar from "./_components/Navbar";
 import "./_styles/globals.css";
 export const metadata = {
-  title: "beije",
+  title: {
+		template: '%s | beije.',
+		default: 'beije.',
+	},
+	description: 'The Wild Oasis - A place to relax and enjoy nature',
 };
 import localFont from "next/font/local";
 
@@ -10,6 +14,7 @@ const gordita = localFont({
   name: "Gordita",
   src: "../GorditaRegular.otf",
 });
+
 
 export default function RootLayout({ children }) {
   return (

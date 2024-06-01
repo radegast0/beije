@@ -5,6 +5,10 @@ import Test from "../_components/Test";
 import Button from "../_components/Button";
 import DisplayCard from "../_components/DisplayCard";
 
+export const metadata = {
+  title: "Kendi Paketini Oluştur",
+};
+
 const page = () => {
   return (
     <div className="w-full">
