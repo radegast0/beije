@@ -10,8 +10,8 @@ const Footer = () => {
             <div>
               <h1 className="font-bold text-light/70">Arayı açmayalım!</h1>
               <p className="text-sm text-light/70">
-                beije’deki yeni ürün ve gelişmeleri sana haber verelim & aylık
-                e-gazetemiz döngü’ye abone ol!
+                beije&apos;deki yeni ürün ve gelişmeleri sana haber verelim &
+                aylık e-gazetemiz döngü&apos;ye abone ol!
               </p>
             </div>
             <div className="flex flex-row gap-4">
@@ -25,8 +25,8 @@ const Footer = () => {
               </button>
             </div>
             <p className="text-sm text-light/70">
-              Abone olarak, beije KVKK ve Gizlilik Politikası'nı kabul ediyor ve
-              beije'den haber almayı onaylıyorum.
+              Abone olarak, beije KVKK ve Gizlilik Politikası&apos;nı kabul
+              ediyor ve beije&apos;den haber almayı onaylıyorum.
             </p>
           </div>
           <div className="flex flex-col gap-4">

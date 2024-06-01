@@ -53,8 +53,9 @@ const page = () => {
             <Button
               disabled={false}
               className={"rounded-3xl bg-dark/10 p-3 transition-colors"}
-              children={"Sepete Ekle"}
-            />
+            >
+              Sepete Ekle
+            </Button>
           </div>
         </div>
       </div>

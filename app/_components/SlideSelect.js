@@ -46,7 +46,7 @@ const SlideSelect = ({ slidersConfig, sliderType }) => {
   return (
     <div className="flex flex-col gap-6">
       {slidersConfig.map((config, index) => (
-        <div>
+        <div key={index}>
           <Slider
             key={index}
             label={config.label}
