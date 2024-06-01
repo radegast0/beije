@@ -48,7 +48,13 @@ const page = () => {
               </svg>
               <span>2 ayda 1 gönderim</span>
             </div>
-            <Image priority alt="alt" src={packet} height={100} width={500} />
+            <Image
+              className="object-cover"
+              placeholder="blur"
+              priority
+              alt="alt"
+              src={packet}
+            />
             <DisplayCard />
             <Button
               disabled={false}
