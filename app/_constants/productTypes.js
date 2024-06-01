@@ -1,8 +1,8 @@
 const productTypes = {
   ped: [
-    { type: "standard", label: "Standard Ped", min: 0, max: 100, step: 1 },
-    { type: "super", label: "Super Ped", min: 0, max: 100, step: 1 },
-    { type: "super+", label: "Super+ Ped", min: 0, max: 100, step: 1 },
+    { type: "standard", label: "Standard Ped", min: 0, max: 100, step: 10 },
+    { type: "super", label: "Super Ped", min: 0, max: 100, step: 10 },
+    { type: "super+", label: "Super+ Ped", min: 0, max: 50, step: 5 },
   ],
   gunluk: [
     { type: "normal", label: "Normal Günlük Ped", min: 0, max: 50, step: 1 },
