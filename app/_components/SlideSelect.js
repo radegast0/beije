@@ -56,7 +56,7 @@ const SlideSelect = ({ slidersConfig, sliderType }) => {
             value={values[index] || 0}
             onValueChange={(value) => handleSliderChange(index, value)}
           />
-          <div className="flex flex-row justify-between py-3 text-xs">
+          <div className="flex flex-row justify-between py-3 text-xs font-bold">
             <span> {config.min} </span>
             <span> {config.max} </span>
           </div>

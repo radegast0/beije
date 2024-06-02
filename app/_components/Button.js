@@ -15,7 +15,7 @@ const Button = ({ children, className }) => {
   return (
     <button
       disabled={isDisabled}
-      className={`${className} transition-all font-bold ${isDisabled ? "text-dark/40 bg-dark/20" : "bg-dark/100 text-light"}`}
+      className={`${className} transition-all font-bold ${isDisabled ? "text-dark/40 bg-dark/20 cursor-not-allowed" : "bg-dark/100 text-light"}`}
     >
       {children} <TotalPrice onPriceChange={handlePriceChange} />
     </button>

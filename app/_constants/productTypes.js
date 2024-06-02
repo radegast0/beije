@@ -1,17 +1,18 @@
+// arrengable values
 const productTypes = {
   ped: [
-    { type: "standard", label: "Standard Ped", min: 0, max: 100, step: 10 },
-    { type: "super", label: "Super Ped", min: 0, max: 100, step: 10 },
-    { type: "super+", label: "Super+ Ped", min: 0, max: 50, step: 5 },
+    { label: "Standart Ped", min: 0, max: 60, step: 10 },
+    { label: "Süper Ped", min: 0, max: 60, step: 5 },
+    { label: "Süper+ Ped", min: 0, max: 60, step: 5 },
   ],
   gunluk: [
-    { type: "normal", label: "Normal Günlük Ped", min: 0, max: 50, step: 1 },
-    { type: "super", label: "Süper Günlük Ped", min: 0, max: 50, step: 1 },
+    { label: "Günlük Ped", min: 0, max: 100, step: 1 },
+    { label: "Süper Günlük Ped", min: 0, max: 100, step: 10 },
   ],
   tampon: [
-    { type: "mini", label: "Mini Tampon", min: 0, max: 75, step: 1 },
-    { type: "standard", label: "Standard Tampon", min: 0, max: 75, step: 1 },
-    { type: "super", label: "Super Tampon", min: 0, max: 75, step: 1 },
+    { label: "Mini Tampon", min: 0, max: 60, step: 10 },
+    { label: "Standart Tampon", min: 0, max: 100, step: 10 },
+    { label: "Süper Tampon", min: 0, max: 60, step: 6 },
   ],
 };
 
