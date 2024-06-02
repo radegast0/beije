@@ -6,7 +6,7 @@ export const metadata = {
 		template: '%s | beije.',
 		default: 'beije.',
 	},
-	description: 'The Wild Oasis - A place to relax and enjoy nature',
+	description: 'Doğal, sürdürülebilir, zahmetsiz. Sana özel bir pakette, kapında.',
 };
 import localFont from "next/font/local";
 
