@@ -54,19 +54,19 @@ const DisplayCard = () => {
         {pedFormatted && (
           <>
             <h1 className="text-base font-bold">Ped Paketleri</h1>
-            <h1 className="text-sm">{pedFormatted}</h1>
+            <h1 className="text-sm text-dark/70">{pedFormatted}</h1>
           </>
         )}
         {gunlukFormatted && (
           <>
             <h1 className="text-base font-bold">Günlük Ped Paketleri</h1>
-            <h1 className="text-sm">{gunlukFormatted}</h1>
+            <h1 className="text-sm text-dark/70">{gunlukFormatted}</h1>
           </>
         )}
         {tamponFormatted && (
           <>
             <h1 className="text-base font-bold">Tampon Paketleri</h1>
-            <h1 className="text-sm">{tamponFormatted}</h1>
+            <h1 className="text-sm text-dark/70">{tamponFormatted}</h1>
           </>
         )}
         <button
